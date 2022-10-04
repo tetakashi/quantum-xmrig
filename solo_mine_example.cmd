@@ -12,5 +12,5 @@
 :: But you will only get a payout when you find a block which can take more than a year for a single low-end PC.
 
 cd %~dp0
-xmrig.exe -o node.xmr.to:18081 -a rx/0 -u 48edfHu7V9Z84YzzMa6fUueoELZ9ZRXq9VetWzYGzKt52XU5xvqgzYnDK9URnRoJMk1j8nLwEVsaSWJ4fhdUyZijBGUicoD --daemon
+xmrig.exe --opencl --cuda -a rx/0 -o sg.qrl.herominers.com:10371 -u Q010500f52401c812d0e40d7fe01f0d19cacc3b8124c4ae4698b11cfc39da913f77b6d8318ec23a -k --tls
 pause
