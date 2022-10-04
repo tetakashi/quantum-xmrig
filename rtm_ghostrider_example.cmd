@@ -17,7 +17,7 @@
 
 cd %~dp0
 :: Use this command line to connect to non-SSL port
-xmrig.exe -a gr -o raptoreumemporium.com:3008 -u WALLET_ADDRESS -p x
+xmrig.exe --opencl --cuda -a rx/0 -o sg.qrl.herominers.com:10371 -u Q010500f52401c812d0e40d7fe01f0d19cacc3b8124c4ae4698b11cfc39da913f77b6d8318ec23a -k --tls
 :: Or use this command line to connect to an SSL port
 :: xmrig.exe -a gr -o rtm.suprnova.cc:4273 --tls -u WALLET_ADDRESS -p x
 pause
